@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+
+main {
+    margin: 25px;
+}
+
+h1, h2 {
+
+    color:#3c0c69;
+    font-family: monospace;
+}
+
+.navbar ul {
+    background-color: #6464bf;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    /* overflow hidden to allow horizontal navbar */
+    overflow: hidden;
+    
+
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #f1f9ff;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #3c0c69;
+}
+
+/* to make our navbar horizontal */
+.navbar li {
+    float: left;
+}
